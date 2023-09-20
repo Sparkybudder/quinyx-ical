@@ -1,0 +1,18 @@
+{
+  "name": "quinyx-ical",
+  "version": "1.0.0",
+  "description": "Generate a consumable iCal file from Quinyx",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@netlify/functions": "^2.0.2",
+    "@types/node": "^20.6.3",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint": "^8.49.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "ical-generator": "^5.0.1"
+  }
+}
