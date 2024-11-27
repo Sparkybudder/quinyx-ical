@@ -15,8 +15,8 @@ const shiftsQuinyx = 'https://app.quinyx.com/api/2.0/user/shift';
 const leaveQuinyx = 'https://app.quinyx.com/api/2.0/user/leave';
 
 // Secrets
-const quinyxUsername = process.env.QUINYX_USERNAME as string;
-const quinyxPassword = process.env.QUINYX_PASSWORD as string;
+const quinyxUsername = process.env.callumoconnor2000@gmail.com as string;
+const quinyxPassword = process.env.TestingNow123# as string;
 
 const generateQuinyxToken = async () => {
   const body: QuinyxAuthRequest = {
