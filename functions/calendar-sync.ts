@@ -21,7 +21,7 @@ const quinyxPassword = process.env.TestingNow123# as string;
 const generateQuinyxToken = async () => {
   const body: QuinyxAuthRequest = {
     grantType: 'password',
-    username: quinyxUsername + ("@gmail.com"),
+    username: quinyxUsername + ('@gmail.com'),
     password: quinyxPassword,
   };
 
