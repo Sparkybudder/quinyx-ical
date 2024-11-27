@@ -16,7 +16,7 @@ const leaveQuinyx = 'https://app.quinyx.com/api/2.0/user/leave';
 
 // Secrets
 const quinyxUsername = process.env.callumoconnor2000 as string;
-const quinyxPassword = process.env.TestingNow123# as string;
+const quinyxPassword = process.env.Zoozoozoo123 as string;
 
 const generateQuinyxToken = async () => {
   const body: QuinyxAuthRequest = {
