@@ -15,14 +15,13 @@ const shiftsQuinyx = 'https://app.quinyx.com/api/2.0/user/shift';
 const leaveQuinyx = 'https://app.quinyx.com/api/2.0/user/leave';
 
 // Secrets
-testemail = Email("callumoconnor2000@gmail.com");
-const quinyxUsername = process.env.(testemail) as string;
+const quinyxUsername = process.env.callumoconnor2000 as string;
 const quinyxPassword = process.env.TestingNow123# as string;
 
 const generateQuinyxToken = async () => {
   const body: QuinyxAuthRequest = {
     grantType: 'password',
-    username: quinyxUsername,
+    username: quinyxUsername + ("@gmail.com"),
     password: quinyxPassword,
   };
 
